@@ -75,7 +75,7 @@ export default {
       if (res.meta.status !== 200) {
         return this.$message.error(res.meta.msg)
       }
-      console.log(res)
+      // console.log(res)
       // 把权限数据赋予给menuList
       this.menuList = res.data
     },
